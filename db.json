@@ -1,0 +1,622 @@
+{
+  "pagesClient": [
+    {
+      "name": "trang chủ",
+      "link": "/"
+    },
+    {
+      "name": "thực đơn",
+      "link": "/products_food"
+    },
+    {
+      "name": "dịch vụ",
+      "link": "/service_client"
+    },
+    {
+      "name": "tin tức",
+      "link": "/about_us_client"
+    },
+    {
+      "name": "liên hệ",
+      "link": "/contact_us_client"
+    }
+  ],
+  "thucDon": [
+    {
+      "name": "tất cả",
+      "loai": null
+    },
+    {
+      "name": "đồ ăn",
+      "loai": "loai=1"
+    },
+    {
+      "name": "đồ uống",
+      "loai": "loai=2"
+    },
+    {
+      "name": "được yêu thích nhất",
+      "loai": "all"
+    },
+    {
+      "name": "món tráng miệng",
+      "loai": "all"
+    }
+  ],
+  "menuAdmin": [
+    {
+      "name": "dashboard",
+      "path": "/adminstration"
+    },
+    {
+      "name": "menu",
+      "path": "/adminstration/quan_li_menu"
+    },
+    {
+      "name": "thực đơn",
+      "path": "/adminstration/quan_li_thuc_don"
+    },
+    {
+      "name": "tài khoản",
+      "path": "/adminstration/quan_li_tai_khoan"
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@abc.xyz",
+      "password": "$2a$10$JgBy/Wfdap6cBmrcOu7Xqei05JA8uuLYO.Ti6OUNpwFZLbKLqwkzW",
+      "nameAcc": "admin",
+      "confirmPassword": "123456",
+      "id": 1,
+      "role": 1
+    },
+    {
+      "email": "123@abc.xyz",
+      "password": "$2a$10$p2sz7spR5DEwK7pvWWevgu0zkYPB7Piiz2vyhu/WdAUbZEqOmudja",
+      "nameAcc": "user",
+      "confirmPassword": "123456",
+      "id": 2
+    },
+    {
+      "email": "123@abc.xyzj",
+      "password": "$2a$10$9SmOlOLCyOTngU31wbsMheuGSGGiq.maRBX.KuuIo4HXbPPc5OkK2",
+      "nameAcc": "user2",
+      "confirmPassword": "123456",
+      "id": 3
+    },
+    {
+      "email": "123@abc.jqk",
+      "password": "$2a$10$ueyTWPFxznMvUg2VKuH2Ie7Nsj1CfdKzgr2XBBrXicqT5/JcGQIwy",
+      "nameAcc": "user1",
+      "confirmPassword": "123456",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 2,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 3,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 4,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 5,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 6,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 7,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 8,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 9,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 10,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 11,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 12,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 13,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 14,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 15,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 16,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 17,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 18,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 19,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 20,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 21,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 22,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 23,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 24,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 25,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 26,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 27,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 28,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 29,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 30,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 31,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 32,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 33,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 34,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 36,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 37,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 38,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 39,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 40,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 41,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 42,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 43,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 44,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 45,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 46,
+      "name": "hambuger",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 47,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 48,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 49,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 50,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 51,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 52,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 53,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 54,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 55,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 56,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 57,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 58,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 59,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 60,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 61,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 62,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 63,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 64,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 65,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 66,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 67,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "id": 68,
+      "name": "coca ",
+      "image": "../src/assets/images/coca.png",
+      "loai": 2,
+      "price": 69000
+    },
+    {
+      "id": 69,
+      "name": "hamburge ",
+      "image": "../src/assets/images/hamburge1.png",
+      "loai": 1,
+      "price": 69000
+    },
+    {
+      "image": "https://picsum.photos/id/1/200/300",
+      "name": "hambuger",
+      "price": "96000",
+      "loai": 1,
+      "id": 70
+    },
+    {
+      "image": "https://picsum.photos/id/1/200/300",
+      "name": "hambuger",
+      "price": "96000",
+      "loai": 1,
+      "id": 71
+    },
+    {
+      "image": "https://picsum.photos/id/1/200/300",
+      "name": "hambuger",
+      "price": "96000",
+      "loai": 1,
+      "id": 72
+    },
+    {
+      "image": "https://picsum.photos/id/1/200/300",
+      "name": "hambuger",
+      "price": "96000",
+      "loai": 1,
+      "id": 73
+    },
+    {
+      "image": "https://picsum.photos/id/1/200/300",
+      "name": "sản phẩm mới thêm",
+      "price": "11111",
+      "loai": 2,
+      "id": 74
+    },
+    {
+      "image": "https://picsum.photos/id/1/200/300",
+      "name": "hambuger",
+      "price": "96000",
+      "loai": 1,
+      "id": 75
+    },
+    {
+      "image": "https://picsum.photos/id/1/200/300",
+      "name": "sản phẩm mới thêm",
+      "price": "11111",
+      "loai": 2,
+      "id": 76
+    }
+  ]
+}
